@@ -139,7 +139,7 @@ export const config = {
         reportedEnvironmentVars: {
             OS: 'MacOS', // os.platform(),
             Node_Version: process.version,
-            Browser: process.env.BROWSER || 'Firefox', // or dynamically set this based on your capabilities
+            Browser: process.env.BROWSER || 'Firefox',
             Environment_URL: process.env.BASE_URL,
         }
     }]],
