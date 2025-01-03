@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@wdio/allure-reporter": "^9.5.0",
+    "@wdio/appium-service": "^9.5.0",
+    "appium": "^2.13.1",
     "winston": "^3.17.0"
   }
 }
