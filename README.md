@@ -1,6 +1,7 @@
 
 # WebdriverIO Automation
-Web: OrangeHRM
+Web: OrangeHRM 
+
 Android: MyDemoAppRN
 
 # Work in progress
@@ -13,7 +14,8 @@ Android: MyDemoAppRN
 
 
 ## Folder Structure
-project-root/
+```
+OrangeHRM-Automation-WebdriverIO
 ├── src/
 │   ├── config/
 │   │   ├── wdio.mobile.conf.js
@@ -41,6 +43,8 @@ project-root/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
+
 
 ## Running Tests
 
