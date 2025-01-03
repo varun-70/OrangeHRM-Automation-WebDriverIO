@@ -9,7 +9,7 @@ import constants from '../config/constants';
  * @throws {Error} If the locator is not defined for the current platform.
  */
 function getLocator(locatorObj, dynamicValues = {}) {
-    const platform = constants.PLATFORM;
+    const platform = process.env.PLATFORM;
 
     // for (const [key, locator] of Object.entries(pageLocators)) {
     //     if (!locator[platform]) {
